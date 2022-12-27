@@ -1,0 +1,12 @@
+.Footer {
+    background-color: black;
+    color: white;
+    padding: 1.3rem;
+    text-align: center;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.Footer #name {
+    color: rgb(240, 57, 57);
+}

@@ -1,0 +1,121 @@
+html {
+    font-size: 62.5%;
+}
+
+.navbar {
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    -webkit-box-align: center;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-family: sans-serif;
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    font-family: sans-serif;
+    font-weight: 600;
+    list-style: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0 2rem 0 2rem;
+}
+
+li a:hover {
+    color: rgb(240, 57, 57);
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.mobile_menu li a {
+    color: black;
+}
+
+.mobile_menu li a:hover {
+    color: rgb(240, 57, 57);
+}
+
+img {
+    height: 5rem;
+    margin: 1rem;
+}
+
+.hamberger_menu {
+    display: none;
+}
+
+.mobile_menu ul {
+    display: none;
+}
+
+@media only screen and (max-width :693px) {
+    .navbar {
+        height: 5rem;
+        justify-content: space-between;
+    }
+
+    .hamberger_menu {
+        display: block;
+    }
+
+    .hamberimg {
+        height: 3.5rem;
+    }
+
+    .section {
+        display: none;
+    }
+
+    .mobile_menu {
+        display: block;
+        display: block;
+        position: relative;
+        z-index: 10;
+    }
+
+    .mobile_menu ul {
+        background-color: #9e9e9e75;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    li {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-left: 5rem;
+    }
+
+    li:hover {
+        color: snow;
+    }
+
+}

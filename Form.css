@@ -1,0 +1,79 @@
+.grandparent {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.parent {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: black;
+    height: 50rem;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 2rem;
+    padding: 1.3rem;
+    margin: auto;
+}
+
+.grandparent h1 {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+input {
+    height: 4rem;
+    width: 30rem;
+    font-size: 1.4rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 1rem;
+}
+
+button {
+    background-color: #18d26e;
+    background-color: rgb(240, 57, 57);
+    height: 4rem;
+    width: 30rem;
+    font-size: 1.4rem;
+    border: 1px solid rgb(240, 57, 57);
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.success {
+    background-color: #3f89f8;
+    font-size: 1.4rem;
+    height: 4rem;
+    width: 32rem;
+    padding: 1.3rem;
+    color: white;
+}
+
+.error {
+    color: red;
+    margin-top: 1rem;
+    margin-right: 17rem;
+    font-size: 1.1rem;
+}
+
+textarea {
+    height: 7rem;
+    width: 30rem;
+    font-size: 1.4rem;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 1rem;
+    color: white;
+}
+
+@media only screen and (max-width :693px) {
+    .grandparent h1 {
+        padding-top: 7rem;
+    }
+}

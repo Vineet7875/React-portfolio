@@ -1,0 +1,61 @@
+.About1 {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(240, 57, 57);
+    color: white;
+}
+
+.About2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.About1 h1 {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.profile_img {
+    height: 30rem;
+    width: 30rem;
+    margin-bottom: 5rem;
+    background-image: url(C:\Users\HP\Desktop\reactapp\public\vineetimg.jpg);
+    background-size: cover;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.profile_info {
+    height: 30rem;
+    width: 30rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile_info p {
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+@media only screen and (max-width :599px) {
+    .profile_info {
+        justify-content: start;
+    }
+
+    .profile_img {
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+}
+
+@media only screen and (max-width :693px) {
+    .About1 h1 {
+        padding-top: 6rem;
+    }
+}

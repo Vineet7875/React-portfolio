@@ -1,0 +1,50 @@
+.Skills1 {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#ski1 {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.Skills1 h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.Skills2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 2rem;
+    column-gap: 5rem;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: white;
+    color: black;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    margin: 3rem;
+}
+
+.card img {
+    height: 14rem;
+}
+
+@media only screen and (max-width :693px) {
+    .Skills2 {
+        grid-template-columns: auto;
+    }
+
+    #ski1 {
+        padding-top: 7rem;
+    }
+}

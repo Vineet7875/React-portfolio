@@ -1,0 +1,54 @@
+.Education1 {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(240, 57, 57);
+    color: white;
+}
+
+.Education1 h1 {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.Education2 {
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.Education {
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: black;
+    padding: 1rem;
+    line-height: 2rem;
+    text-align: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 97vw;
+    margin-bottom: 2rem;
+}
+
+.Education span {
+    font-size: 1.5rem;
+}
+
+.year {
+    margin-bottom: 1rem;
+    color: rgb(240, 57, 57);
+}
+
+.eduinvert {
+    filter: invert(100%);
+    height: 5rem;
+    width: 5rem;
+}
+
+@media only screen and (max-width :693px) {
+    .Education1 h1 {
+        padding-top: 7rem;
+    }
+}
